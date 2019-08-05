@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resources>
-    <!-- Messages IDs -->
-    <item type="id" name="common_statusbarutil_fake_status_bar_view" />
-    <item type="id" name="common_statusbarutil_translucent_view" />
-    <item name="common_id_width" type="id" />
-</resources>
