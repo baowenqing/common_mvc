@@ -38,7 +38,7 @@ public class Global {
     public static String filePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/yiHuApp/";
 
 
-    static boolean isTest = BuildConfig.isTest;
+    static boolean isTest = true;
     //修改为 通过是否debug模式 切换环境
 //    static boolean isTest = BuildConfig.DEBUG;
 

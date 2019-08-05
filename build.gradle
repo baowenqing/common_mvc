@@ -3,8 +3,12 @@ apply from: "config.gradle"
 
 buildscript {
     repositories {
-        google()
         jcenter()
+        mavenCentral()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+        maven { url "https://dl.google.com/dl/android/maven2" }
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public" }
+        google()
         
     }
     dependencies {
@@ -17,8 +21,20 @@ buildscript {
 
 allprojects {
     repositories {
-        google()
+        mavenLocal()
         jcenter()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://maven.google.com' }
+        maven { url 'http://developer.huawei.com/repo/' }
+        maven { url 'http://maven.aliyun.com/nexus/content/repositories/releases/' }
+        maven { url 'https://dl.bintray.com/polyv/android' }
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+        maven { url "https://dl.google.com/dl/android/maven2" }
         
     }
 }
