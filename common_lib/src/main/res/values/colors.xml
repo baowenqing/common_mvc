@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="common_result_view">#b0000000</color>
+    <color name="common_add_title_text_color">#666666</color>
+    <color name="common_white">#ffffffff</color>
+    <color name="common_grey_cccccc">#CCCCCC</color>
+    <color name="common_333">#333</color>
+    <color name="common_ff5019">#ff5019</color>
+    <color name="color_FF8A00">#FF8A00</color>
+    <color name="color_ff9e13">#ff9e13</color>
+    <color name="color_FF686E">#ff686e</color>
+    <color name="color_248CF7">#248CF7</color>
+    <color name="color_00C36C">#00C36C</color>
+    <color name="color_00CDB4">#00CDB4</color>
+    <color name="color_00C1D2">#00C1D2</color>
+    <color name="color_00CE84">#00CE84</color>
+    <color name="color_2AB2FD">#2AB2FD</color>
+    <color name="color_00BCD8">#00BCD8</color>
+    <color name="color_00CECA">#00CECA</color>
+    <color name="color_6f72f4">#6f72f4</color>
+</resources>
